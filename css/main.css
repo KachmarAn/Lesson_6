@@ -9,18 +9,18 @@
 }
 
 @font-face {
-  font-family: 'CeraPro';
-  src: url('./fonts/CeraPro-BlacjItalic.ttf') format('truetype');
+  font-family: "CeraPro";
+  src: url("./fonts/CeraPro-BlacjItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'hanging';
-  src: url('./fonts/hanging-letters.ttf') format('truetype');
-  }
+  font-family: "hanging";
+  src: url("./fonts/hanging-letters.ttf") format("truetype");
+}
 /* Применение шрифта */
 body {
-  font-family: 'CeraPro', sans-serif;
+  font-family: "CeraPro", sans-serif;
 }
 .container {
   max-width: 1200px;
@@ -74,9 +74,11 @@ li {
 /* первая секция */
 section .container {
   margin-top: 12px;
-  background: linear-gradient(97.77deg,
-      rgba(245, 245, 245, 0.5) -23.46%,
-      rgba(245, 245, 245, 0.5) 107.51%);
+  background: linear-gradient(
+    97.77deg,
+    rgba(245, 245, 245, 0.5) -23.46%,
+    rgba(245, 245, 245, 0.5) 107.51%
+  );
 }
 
 section .left-side {
@@ -145,9 +147,11 @@ h2 {
   /* Сбрасываем gap для нужных элементов */
   flex-direction: column;
   /* Вертикальное расположение */
-  background: linear-gradient(97.77deg,
-      rgba(245, 245, 245, 0.5) -23.46%,
-      rgba(245, 245, 245, 0.5) 107.51%);
+  background: linear-gradient(
+    97.77deg,
+    rgba(245, 245, 245, 0.5) -23.46%,
+    rgba(245, 245, 245, 0.5) 107.51%
+  );
 }
 
 .categories li {
@@ -171,7 +175,7 @@ h2 {
   font-weight: bold;
 }
 
-.categories ul li:nth-child(n+2) {
+.categories ul li:nth-child(n + 2) {
   padding-left: 12px;
   /* Смещаем все элементы, начиная со второго, на 30px вправо */
 }
@@ -205,7 +209,7 @@ h2 {
 }
 
 .short_by ul li:first-child {
-  color: #46A358;
+  color: #46a358;
   /* Задает цвет для первого элемента */
   text-decoration: underline;
   /* Подчеркивает первый элемент */
@@ -242,7 +246,7 @@ h2 {
 .image-background {
   background: #fbfbfb;
   width: 258px;
-  height: 300px;
+  /* height: 300px; */
   padding: 4px;
 }
 
@@ -267,7 +271,7 @@ h2 {
 .product-name,
 .product-price {
   margin: 0;
-  padding-top: 5px;
+  /* padding-top: 5px; */
 }
 
 /* СЕКСИЯ SALE */
@@ -283,19 +287,19 @@ h2 {
   /* max-width: 300px; Ограничение ширины, по желанию */
 }
 .sale-text {
-  font-family: 'hanging', sans-serif;
-      font-size: 65px;
-    /* Размер текста для заголовка */
-    font-weight: bold;
-    color: #46A358;
-    /* Цвет текста для надписи "Super Sale" */
-    /* margin: 10px 0; Отступы сверху и снизу */
-  }
+  font-family: "hanging", sans-serif;
+  font-size: 65px;
+  /* Размер текста для заголовка */
+  font-weight: bold;
+  color: #46a358;
+  /* Цвет текста для надписи "Super Sale" */
+  /* margin: 10px 0; Отступы сверху и снизу */
+}
 
- .sale p:nth-child(2) {
+.sale p:nth-child(2) {
   font-size: 23px;
   /* Размер текста для "UP TO 75% OFF" */
-  color: #3D3D3D;
+  color: #3d3d3d;
   margin-top: 11px;
   /*Отступы сверху и снизу*/
 }
@@ -334,16 +338,15 @@ h2 {
 }
 
 .page-btn:hover {
-  background-color: #46A358;
+  background-color: #46a358;
   /* Изменение фона при наведении */
   color: #fff;
   /* Цвет текста активной кнопки */
 }
 
 .page-btn.active {
-  background-color: #46A358;
+  background-color: #46a358;
   /* Фон активной кнопки */
   color: #fff;
   /* Цвет текста активной кнопки */
-
 }
